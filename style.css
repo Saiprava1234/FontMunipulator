@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+body{
+    background-size: cover;
+}
+h2{
+    background: linear-gradient(to right, deeppink, dodgerblue) !important;
+    border-radius: 20px !important;
+    color: rgb(255, 255, 255) !important;
+    border: 0px transparent !important;
+    font-size: 30px !important;
+}
+#note{
+    font-size: 18px;
+    color: yellow;
+}
+.copy_right_footer{
+    position: fixed;
+    background: linear-gradient(to right,red,orange,yellow,green,dodgerblue,blue,purple);
+    font-family: 'Palette Mosaic', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    line-height: 2;
+    width: 100%;
+    bottom: 0;
+}
+canvas{
+    border: 5px solid deeppink;
+    border-radius: 15px;
+}
